@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "gsap": "^3.12.2",
+    "icons": "^1.0.0",
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "sass": "^1.69.4",
     "sheryjs": "^1.0.0-beta.0.0.7"
   },

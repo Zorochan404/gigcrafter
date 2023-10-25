@@ -8,6 +8,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Draggable from "gsap/Draggable";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
 import Stack from '../../components/stack/Stack';
+import StackCard from '../../components/card/StackCard';
 
 
 
@@ -23,6 +24,7 @@ const Page1 = () => {
                     <Navbar />
                         <h1 scroll="true">Digital Alchemy Coded Elegance</h1>
                     <Stack/>
+                    <StackCard />
                 </div>
             </div>
         </div>
