@@ -1,0 +1,35 @@
+.navbar{
+    height: 3.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 0 30px;
+    .logo{
+        height: 3rem;
+    }
+    h4{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: Josefin Sans;
+        
+        &:hover{
+            border-bottom: 1.5px solid #fff;
+        }
+    }
+    .nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .circle{
+        height: 1.7rem;
+        width: 1.7rem;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 1.5rem;
+    }
+}

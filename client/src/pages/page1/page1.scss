@@ -1,0 +1,31 @@
+@import 'locomotive-scroll/src/locomotive-scroll.scss';
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #0F0D0D;
+    h1{
+        font-size: 11.5vw;
+        text-transform: uppercase;
+        font-family: Josefin Sans;
+        letter-spacing: 0.1rem;
+        margin-top: 5rem;
+        // margin-top: 12vw;
+        // margin-left: 6vw;
+
+    }
+    .video{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10vw;
+
+
+
+    }
+    img{
+        height: 30rem;
+    }
+
+}
