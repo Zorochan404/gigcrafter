@@ -18,15 +18,10 @@ const Page1 = () => {
 
 
     return (
-        <div className='page1' data-scroll-container >
-            <div data-scroll-container>
-                <div data-scroll-section>
+        <div className='page1' data-scroll-section >
                     <Navbar />
                         <h1 scroll="true">Digital Alchemy Coded Elegance</h1>
-                    <Stack/>
                     <StackCard />
-                </div>
-            </div>
         </div>
     );
 }

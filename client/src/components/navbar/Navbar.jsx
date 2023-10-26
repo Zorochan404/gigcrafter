@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png"
 
 export default function Navbar() {
   return (
-    <div className='navbar' data-scroll-container>
+    <div className='navbar'data-scroll-section >
         <img className='logo' src={logo}></img>
         <div className="nav-part2">
         <h4>Home</h4>

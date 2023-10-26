@@ -15,7 +15,12 @@ import "./stackcard.scss";
 
 const StackCard = () => {
   return (
-    <div className="StackCard">
+    <div className="StackCard" data-scroll-section >
+      <div className="header">
+        <h2>
+          What we generally use to cook
+        </h2>
+      </div>
       <div className="card">
         <div className="head">ReactJS</div>
         <div className="icon">
